@@ -1,0 +1,194 @@
+/* ==============================
+   Google Fonts
+============================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* ==============================
+   Global Styles
+============================== */
+body {
+    margin: 0;
+    font-family: shabnam;
+    background-color: black;
+    color: white;
+}
+
+/* ==============================
+   Game Canvas
+============================== */
+.game-canvas {
+    width: 100%;
+    height: 100vw;
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ==============================
+   Arrow Keys Container
+============================== */
+.keys {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    margin: auto;
+}
+
+/* ==============================
+   Up Arrow Adjust
+============================== */
+.up {
+    position: relative;
+    top: -4px;
+}
+
+/* ==============================
+   Chevron Arrow Styles
+============================== */
+.chevron::before {
+    border-style: solid;
+    border-width: 8px 8px 0 0;
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    top: -10px;
+    position: relative;
+    transform: rotate(-45deg);
+}
+
+/* Chevron Direction Overrides */
+.chevron.down::before { transform: rotate(135deg); top: -22px; }
+.chevron.right::before { transform: rotate(45deg); top: -18px; left: -5px; }
+.chevron.left::before { transform: rotate(225deg); top: -18px; left: 5px; }
+
+/* ==============================
+   Arrow Buttons
+============================== */
+.arr {
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 100px;
+    background: gray;
+    color: white;
+    font-size: 50px;
+    border-right: 10px solid #ccc;
+    border-bottom: 10px solid #ccc;
+    border-left: 10px solid #ddd;
+    border-top: 10px solid #eee;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.05s linear;
+    user-select: none;
+}
+
+.arr:active {
+    background: #555;
+}
+
+/* ==============================
+   Game Container
+============================== */
+#game-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(220, 220, 220, 0.6);
+}
+
+/* ==============================
+   Feature Box
+============================== */
+.fe-box {
+    width: 290px;
+    padding: 9px 30px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0);
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    margin: 30px auto 10px auto;
+    transition: 0.6s ease;
+    position: relative;
+    display: block;
+    text-align: center;
+    animation: glow 2s infinite alternate ease-in-out;
+}
+
+/* Hover Effect */
+.fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(240, 240, 240, 1);
+}
+
+/* Feature Box Image */
+.fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Feature Box Heading */
+.fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: white;
+    font-weight: 100;
+    background: none;
+}
+
+/* ==============================
+   Animated Name Gradient
+============================== */
+.animated-name {
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    background: linear-gradient(270deg, #0d47a1, #42a5f5, #ffffff, #42a5f5, #0d47a1);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 1.8s linear infinite;
+    cursor: pointer;
+}
+
+.animated-name:hover {
+    animation-play-state: paused;
+}
+
+/* Letter Bounce Effect */
+.letter {
+    display: inline-block;
+    animation: none;
+    transition: transform 0.3s ease;
+}
+
+.animated-name:hover .letter {
+    animation: bounceUp 0.6s ease forwards;
+    animation-delay: calc(var(--i) * 0.01s);
+}
+
+/* Gradient Keyframes */
+@keyframes gradientMove {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 150% 50%; }
+}
+
+/* ==============================
+   Footer
+============================== */
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
